@@ -15,82 +15,153 @@
 </head>
 
 <body>
-
-<nav class="navbar navbar-expand-lg navbar-light bg-dark">
-	  <a class="navbar-brand text-white" id="head"><img src="assets/images/shoot.png" height="30px" width="30px">Lens and Travels</a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-
-	  <div class="collapse navbar-collapse" id="navbarNav" style="display: center;">
-
-		<ul class="navbar-nav">
+<div class="support">
+<nav class="navbar navbar-dark bg-opacity">
+	
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+    	<a class="navbar-brand text-white" id="head"><img src="assets/images/shoot.png" height="30px" width="30px">Click</a>
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    	
+  	<div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+    <div class="bg-opacity p-0">
+      	<ul class="navbar-nav">
 		    <li class="ml-2 nav-item active">
-		        <a class="btn btn-outline-info toggle" href="index.html">Home</a>
-		        
+		        <a class="btn btn-outline-info toggle" href="landingpage.html">Home</a>		        
 		    </li>
-
 		    <li class="ml-2 nav-item active">
 				<a class="btn btn-outline-info toggle" href="index.html">Portfolio</a>
 			</li>
 	      	<li class="ml-2 nav-item dropdown">
 				<button class="btn btn-outline-info dropdown-toggle" data-toggle="dropdown">Services</button>
-				<div class="dropdown-menu">
-					<a class="dropdown-item" href="#">Photography</a>
-					<a class="dropdown-item" href="#">Tutorials</a>
-					<a class="dropdown-item" href="#">Tours</a>
+				<div class="dropdown-menu" style="max-width: 70px;">
+					<a style="background-color: rgb(0, 225, 250);" class="dropdown-item" href="#">Photography</a>
+					<a style="background-color: rgb(0, 225, 250);" class="dropdown-item" href="#">Tutorials</a>
+					<a style="background-color: rgb(0, 225, 250);" class="dropdown-item" href="#">Tours</a>
 				</div>
-			</li>
-	      
+			</li>	      
 	      	<li class="ml-2 nav-item dropdown">
 				<button class="btn btn-outline-info dropdown-toggle" data-toggle="dropdown">Support</button>
-				<div class="dropdown-menu">
-					<a class="dropdown-item" href="support.html">FAQ</a>
-					<a class="dropdown-item" href="support.html">About Us</a>
-					<a class="dropdown-item" href="#us">Contact US</a>
+				<div class="dropdown-menu" style="max-width: 70px;">
+					<a style="background-color: rgb(0, 225, 250);" class="dropdown-item" href="support.html">FAQ</a>
+					<a style="background-color: rgb(0, 225, 250);" class="dropdown-item" href="#about">About</a>
+					<a style="background-color: rgb(0, 225, 250);" class="dropdown-item" href="#us">Contact</a>
 				</div>
-			</li>
-	      
+			</li>      
 	    </ul>
-	  </div>
+    </div>
+  	</div>
+  		
 </nav>
 
 <div class="container">
 				
-<section class="gallery clear">
+<section class="accordion">
 <h3 id="faq">Frequently Asked Questions</h3>
-<p>1. What is the advantage of using a travel agency?
-Travel agencies have direct connections with the airlines. When availing of the services of a travel agency, you are given the option of booking an airline ticket first without having to have the ticket issued right away. 
 
-Booking a ticket is equivalent to reserving your seat on your chosen flight option. When using a travel agency, we can book your airline ticket for you and hold it until the deadline given by the airline. You can opt to wait until the deadline before we issue the ticket. This gives you a chance to think about your option and decision without having to worry about booking and buying right away.</p>
+    <div class="card">
+      <div class="card-header">
+        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+          1. What is the advantage of using a travel agency?
+        </a>
+      </div>
+      <div id="collapseOne" class="collapse show" data-parent="#accordion">
+        <div class="card-body">
+        Travel agencies have direct connections with the airlines. When availing of the services of a travel agency, you are given the option of booking an airline ticket first without having to have the ticket issued right away. 
 
-<p>2. What’s the cheapest destination if I’m going on a package tour?
-The Asian package to Bangkok and Philippine local packages.</p>
+		Booking a ticket is equivalent to reserving your seat on your chosen flight option. When using a travel agency, we can book your airline ticket for you and hold it until the deadline given by the airline. You can opt to wait until the deadline before we issue the ticket. This gives you a chance to think about your option and decision without having to worry about booking and buying right away.
+        </div>
+      </div>
+    </div>
 
-<p>3. What are the countries that do not require visas for Filipinos?
-Brazil, Indonesia(except business trip), Thailand, Brunei, Malaysia, Cambodia, Peru, Palau(except for business trip), Singapore, Taiwan (provided with electronic visa which can be applied when holding a valid US, Canada, Japan, UK, Schengen, Australia, and New Zealand visa), Vietnam, Morocco, Mongolia, Israel.</p>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+        2. What’s the cheapest destination if I’m going on a package tour?
+      </a>
+      </div>
+      <div id="collapseTwo" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          The Asian package to Bangkok and Philippine local packages.
+        </div>
+      </div>
+    </div>
 
-<p>4. When is the best time to travel to the United States of America?
-During off peak periods, from 01 September to 15 December and 01 February to 15 March.</p>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+          3. What are the countries that do not require visas for Filipinos?
+        </a>
+      </div>
+      <div id="collapseThree" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          Brazil, Indonesia(except business trip), Thailand, Brunei, Malaysia, Cambodia, Peru, Palau(except for business trip), Singapore, Taiwan (provided with electronic visa which can be applied when holding a valid US, Canada, Japan, UK, Schengen, Australia, and New Zealand visa), Vietnam, Morocco, Mongolia, Israel.
+        </div>
+      </div>
+    </div>
 
-<p>5. What is the baggage allowance for Asia, Europe and the U.S.?
-Baggage allowance for Asia and Europe is 20 kilos and for the U.S. it is 2pcs, 50lbs/pc.</p>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+          4. When is the best time to travel to the United States of America?
+        </a>
+      </div>
+      <div id="collapseFour" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          During off peak periods, from 01 September to 15 December and 01 February to 15 March.
+        </div>
+      </div>
+    </div>
 
-<p>6. What are the requirements for first time passport applicants?
-A. Valid I.D. (driver’s license, SSS I.D., Company I.D., school I.D., PRC I.D., voter’s I.D.)
-B. Authenticated birth certificate
-C. Authenticated marriage contract (for married and minor applicants)
-D. Personal appearance
-E. Print-out of appointment confirmation
-F. Fully accomplished passport application form</p>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseFive">
+          5. What is the baggage allowance for Asia, Europe and the U.S.?
+        </a>
+      </div>
+      <div id="collapseFive" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          Baggage allowance for Asia and Europe is 20 kilos and for the U.S. it is 2pcs, 50lbs/pc.
+        </div>
+      </div>
+    </div>
 
-<p>7. How much are the airport terminal fees in the Philippines?
-International Php 550.00</p>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseSix">
+          6. What are the requirements for first time passport applicants?
+        </a>
+      </div>
+      <div id="collapseSix" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+        A. Valid I.D. (driver’s license, SSS I.D., Company I.D., school I.D., PRC I.D., voter’s I.D.)
+		B. Authenticated birth certificate
+		C. Authenticated marriage contract (for married and minor applicants)
+		D. Personal appearance
+		E. Print-out of appointment confirmation
+		F. Fully accomplished passport application form
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseSeven">
+          7. How much is the international travel tax in the Philippines?
+        </a>
+      </div>
+      <div id="collapseSeven" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          Php 1620.00
+        </div>
+      </div>
+    </div>
+
 </section>
 
 
 <section class="gallery clear"><br>
-<h3 id="about">About Us</h3><img src="assets/images/shoot.png" alt="gallery1">
+<h3 id="about">About Us</h3><img src="assets/images/logo1.png" alt="gallery1">
 	
 	<figure class="section item2">Overview
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -139,8 +210,8 @@ International Php 550.00</p>
 
 </div>
 <footer id="contact" class="footer" class="col">
-		<a href="mailto:jumelonline01@gmail.com" target="_top"><small>jumeltagnipez |Email</small></a>
-		<a href="#left"><small >Top</small></a>
+		<a href="mailto:jumelonline01@gmail.com"><small>jumeltagnipez |Email</small></a>
+		<a href="#left"></a>
 		<div class="socmed">
 		<a src="assets/images/facebook.jpg" href="https://www.facebook.com"> <img src="assets/images/facebook.jpg" alt="social-facebook"></a>
 		<a src="assets/images/twitter.jpg" href="https://www.twitter.com"> <img src="assets/images/twitter.jpg" alt="social-twitter"></a>
@@ -154,6 +225,6 @@ International Php 550.00</p>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
-
+</div>
 </body>
 </html>
