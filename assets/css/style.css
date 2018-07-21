@@ -50,7 +50,7 @@ h4, h1, h6{
     float: left;
 }
 .photography, .tutorials, .travels {
-	background-image: url(../images/water.jpg);
+	background-image: url(../images/waterdrop.gif);
 	background-size: cover;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
@@ -91,6 +91,20 @@ h4, h1, h6{
 }
 .testing{
 	background-image: url(../images/paris001.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 890px;
+    padding-top: 200px;
+    float: left;
+}
+.testp{
+	background-image: url(../images/background.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
