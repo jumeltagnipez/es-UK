@@ -158,14 +158,14 @@ h5, li, .bio, h2, h3, p{
 	display: block;
 	border: 1px solid black;
 }
-.html, .css, .bootstrap{ 
+.html, .bootstrap{ 
 	width: 80%; 
 }
-.jquery, .javascript{
+.jquery, .javascript, .css{
 	width: 50%;
 }
 .mysql, .php, .laravel{
-	width: 10%;
+	width: 20%;
 }
 ol, li{
 	margin: 10px;
