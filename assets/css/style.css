@@ -6,7 +6,7 @@
 
 .navbar{
     background-color: #0;
-    opacity: 0.5;
+    opacity: 0.50;
     filter: Alpha(opacity=50);
 }
 
@@ -40,7 +40,7 @@ audio{
 h4, h1, h6{
 	text-align: center;
 	color: white;
-	font-family: 'Merienda', cursive;
+	font-family: 'Shadows Into Light', cursive;
 }
 
 .port, .index, .support, .faq, .about, .contact{
@@ -156,7 +156,7 @@ h5, li, .bio, h2, h3, p{
 	text-align: center;
 	color: rgb(0,100,25);
 	padding: 10px;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Dancing Script', cursive;
 }
 .progress{
 	width: 205px;
